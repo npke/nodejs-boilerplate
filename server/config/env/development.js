@@ -10,7 +10,7 @@ module.exports = {
     host: process.env.HOST || '0.0.0.0',
 
     db: {
-        uri: 'mongodb://localhost/nodejs-boilerplate',
+        uri: process.env.MONGODB_URI || 'mongodb://localhost/nodejs-boilerplate',
         options: {
             user: '',
             pass: ''
