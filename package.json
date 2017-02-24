@@ -1,0 +1,39 @@
+{
+  "name": "node-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for NodeJS application",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npke/nodejs-boilerplate.git"
+  },
+  "keywords": [
+    "nodejs",
+    "boilerplate",
+    "restful"
+  ],
+  "author": "Ke Nguyen Phu (@npke)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npke/nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/npke/nodejs-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "express": "^4.14.1",
+    "helmet": "^3.4.0",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.8.4",
+    "morgan": "^1.8.1",
+    "pug": "^2.0.0-beta11",
+    "serve-favicon": "^2.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
